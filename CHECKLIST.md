@@ -9,7 +9,7 @@ Tick an exercise after I have tried it, brought back the result, and reviewed it
 - [x] **0.3** Verify the project path in PowerShell, create one fake request, verify Docker is running, open n8n, and name my practice workflow.
 - [x] **0.4** Predict and run the manual workflow. Compare my prediction with the execution output.
 - [x] **0.5** Rename a field, find the mismatch, repair it, and show the successful rerun.
-- [ ] **0.6** Set up Git, review the staged project documents and `.gitignore`, and create the first commit.
+- [x] **0.6** Set up Git, review the staged project documents and `.gitignore`, and create the first commit.
   - [x] Rename `master` to `main` and verify `On branch main` in `git status` before pushing to GitHub.
 - [ ] **0.7** Choose GitHub repository visibility, push the commit, and verify the documents in GitHub.
 - [x] **Optional activation** — Enter the local key under Settings → Plan & usage.

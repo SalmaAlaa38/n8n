@@ -13,7 +13,7 @@ Build a quote intake workflow for a small cleaning company and learn to set it u
 ## Current progress
 
 - **Status** — Milestone 0 in progress.
-- **Current exercise** — 0.6 Save the plan in Git. The branch is `main` and the intended changes were staged. Restage the latest `PROJECT.md` and `CHECKLIST.md` edits, then use `git commit --amend --no-edit` to amend the unpublished initial commit.
+- **Current exercise** — 0.7 Publish the plan to GitHub. Commit the latest planning edits, create an empty GitHub repository, connect it as a remote, and push `main`. Verify the three project documents and `.gitignore` in the browser.
 - **Hosting choice** — Local self-hosting on Windows with Docker Desktop and WSL 2 for learning and the first local demo. An owner who tries the demo remotely will need a reachable form URL.
 - **Progress tracker** — [CHECKLIST.md](CHECKLIST.md) has a box for each exercise and milestone review.
 - **Mentor instructions** — [AGENTS.md](AGENTS.md) records the exercise and review routine for future chats.
@@ -119,3 +119,4 @@ After each exercise review, record the date, exercise ID, what I expected, what 
 | 2026-11-25 | 0.6 | The learner reported using `git rm --cached` successfully. The local fixture and its `.gitignore` rule were verified. | Stage the ignore rule and updated planning documents alongside the removal. | Review the staged list, amend the unpublished commit with its original message, and report the summary. |
 | 2026-11-25 | 0.6 | `git branch` and `git status` showed `main`. Git status showed `fake-request.txt` staged for deletion and `.gitignore`, `CHECKLIST.md`, and `PROJECT.md` modified in the working tree. | Verified the branch rename. Include the three modified files in the amended snapshot. | Stage them by name, verify the staged list, and amend the unpublished `Initial commit`. |
 | 2026-11-25 | 0.6 | All four intended changes were staged. `git --amend --no-edit` returned an unknown option error. The learner also flagged the checklist's duplicate 0.6 label. | `--amend` and `--no-edit` are options for `git commit`. Moved the completed branch rename under the single 0.6 checklist item. | Restage the two documentation edits, run `git commit --amend --no-edit`, and report the summary. |
+| 2026-11-25 | 0.6 | The amended `Initial commit` on `main` had a new hash and contained `.gitignore`, `AGENTS.md`, `CHECKLIST.md`, and `PROJECT.md` as expected. | Verified the corrected first commit. Exercise complete. | Start 0.7 by saving the latest planning edits and creating an empty GitHub repository for `main`. |
