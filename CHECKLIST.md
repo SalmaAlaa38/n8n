@@ -11,10 +11,10 @@ Tick an exercise after I have tried it, brought back the result, and reviewed it
 - [x] **0.5** Rename a field, find the mismatch, repair it, and show the successful rerun.
 - [x] **0.6** Set up Git, review the staged project documents and `.gitignore`, and create the first commit.
   - [x] Rename `master` to `main` and verify `On branch main` in `git status` before pushing to GitHub.
-- [ ] **0.7** Choose GitHub repository visibility, push the commit, and verify the documents in GitHub.
+- [x] **0.7** Choose GitHub repository visibility, push the commit, and verify the documents in GitHub.
 - [x] **Optional activation** — Enter the local key under Settings → Plan & usage.
-- [ ] **Optional activation check** — Verify that n8n confirms Registered Community activation.
-- [ ] **Milestone 0 review** — Demo the practice workflow, explain how I found the mismatch, and show the GitHub repository with the project documents.
+- [x] **Optional activation check** — Verify that n8n confirms Registered Community activation.
+- [x] **Milestone 0 review** — Demo the practice workflow, explain how I found the mismatch, and show the GitHub repository with the project documents.
 
 ## Milestone 1 — Form to Google Sheets
 

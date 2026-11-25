@@ -12,8 +12,8 @@ Build a quote intake workflow for a small cleaning company and learn to set it u
 
 ## Current progress
 
-- **Status** — Milestone 0 in progress.
-- **Current exercise** — 0.7 Publish the plan to GitHub. Commit the latest planning edits, create an empty GitHub repository, connect it as a remote, and push `main`. Verify the three project documents and `.gitignore` in the browser.
+- **Status** — Milestone 0 complete. Milestone 1 in progress.
+- **Current exercise** — 1.1 Build the intake form. Create a new workflow with an n8n Form Trigger, submit fictional data through the test form with one optional field blank, and compare the expected and actual trigger output.
 - **Hosting choice** — Local self-hosting on Windows with Docker Desktop and WSL 2 for learning and the first local demo. An owner who tries the demo remotely will need a reachable form URL.
 - **Progress tracker** — [CHECKLIST.md](CHECKLIST.md) has a box for each exercise and milestone review.
 - **Mentor instructions** — [AGENTS.md](AGENTS.md) records the exercise and review routine for future chats.
@@ -120,3 +120,7 @@ After each exercise review, record the date, exercise ID, what I expected, what 
 | 2026-11-25 | 0.6 | `git branch` and `git status` showed `main`. Git status showed `fake-request.txt` staged for deletion and `.gitignore`, `CHECKLIST.md`, and `PROJECT.md` modified in the working tree. | Verified the branch rename. Include the three modified files in the amended snapshot. | Stage them by name, verify the staged list, and amend the unpublished `Initial commit`. |
 | 2026-11-25 | 0.6 | All four intended changes were staged. `git --amend --no-edit` returned an unknown option error. The learner also flagged the checklist's duplicate 0.6 label. | `--amend` and `--no-edit` are options for `git commit`. Moved the completed branch rename under the single 0.6 checklist item. | Restage the two documentation edits, run `git commit --amend --no-edit`, and report the summary. |
 | 2026-11-25 | 0.6 | The amended `Initial commit` on `main` had a new hash and contained `.gitignore`, `AGENTS.md`, `CHECKLIST.md`, and `PROJECT.md` as expected. | Verified the corrected first commit. Exercise complete. | Start 0.7 by saving the latest planning edits and creating an empty GitHub repository for `main`. |
+| 2026-11-25 | 0.7 | The learner reported seeing the four intended files in the public GitHub repository. The local `origin` URL matched that repository, and `origin/main` listed `.gitignore`, `AGENTS.md`, `CHECKLIST.md`, and `PROJECT.md`. | Verified the file list and reviewed how Git looks up the remote URL by name. Exercise complete. | Finish the milestone review by explaining how to spot and repair the field mismatch. |
+| 2026-11-25 | Milestone 0 review | The learner recalled that writing the correct field name fixed the output. | Use the working node to identify where the incoming name and the lookup name appear. | Compare Input with the `quote_request` Value expression and describe what has to match. |
+| 2026-11-25 | Milestone 0 review | The learner identified `request_note` and `quote_request` as field names and the sentence from the previous node as the value. The repaired workflow and the GitHub file list were already checked. | Reviewed that the expression reads `request_note` and places the value under the output name `quote_request`. Milestone complete. | Start 1.1 by building and testing the quote intake form in a new workflow. |
+| 2026-11-25 | Milestone 0 closeout | The learner confirmed Registered Community activation and opened the existing n8n repository in GitHub Desktop. | Checked the activation confirmation. Every milestone 0 checklist item is complete. | Resume 1.1 by building and testing the quote intake form. |
